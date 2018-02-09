@@ -1,0 +1,25 @@
+{
+    "name": "vrpay/vrpay",
+    "type": "library",
+    "description": "VRpay PHPLib",
+    "keywords": [
+        "payment",
+        "gateway"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.vr-pay-secure.de",
+    "authors": [
+        {
+            "name": "CardProcess GmbH",
+            "homepage": "https://www.vr-pay-secure.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "VRpay": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
